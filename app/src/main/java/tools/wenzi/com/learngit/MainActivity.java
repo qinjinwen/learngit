@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         return name;
     }
 
+    private int getVersion() {
+        return 1;
+    }
+
 }
