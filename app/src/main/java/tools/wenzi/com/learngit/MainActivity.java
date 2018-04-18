@@ -6,6 +6,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     private String name;
+    private int version;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int getVersion() {
-        return 1;
-    }
-
-    private int getVersion2() {
-        return 2;
+        return version;
     }
 
 }
