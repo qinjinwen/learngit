@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
         return 1;
     }
 
+    private int getVersion2() {
+        return 2;
+    }
+
 }
